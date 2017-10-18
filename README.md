@@ -14,3 +14,10 @@ Week 3:
 This week was tough as I ran into some issues but eventually fixed them all and now have a simple food 
 tracking app that is almost done. I will hopefully have it done within the next week or two and then I can post it
 and start working on a bigger project now that I have a much better understadning of the swift coding language.
+
+Week 4:
+I have a functioning program thats almost done as I still want to add a few more features to it
+I'm not sure exactly how to upload it as its an app so its a big collection of files, hopefully with 
+some help next week I can figure this out and upload my progress. Other then this I should have this first app
+done and all uploaded by next week. After that I'm hoping to start working on a bigger final project, which will
+most likely be some sort of simple game or maybe an application.
