@@ -21,3 +21,8 @@ I'm not sure exactly how to upload it as its an app so its a big collection of f
 some help next week I can figure this out and upload my progress. Other then this I should have this first app
 done and all uploaded by next week. After that I'm hoping to start working on a bigger final project, which will
 most likely be some sort of simple game or maybe an application.
+
+Week 5:
+I didn't have that much time this week to work on my project but in what little time I did have I've almost
+my first project which I will post when its done hopefully within the next couple of days. Once I've finished that 
+I will start working on a bigger final project which will be some sort of game for the Iphone.
