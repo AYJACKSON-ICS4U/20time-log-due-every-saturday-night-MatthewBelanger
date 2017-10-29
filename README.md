@@ -30,3 +30,11 @@ I will start working on a bigger final project which will be some sort of game f
 ![screen shot 2017-10-29 at 4 08 32 pm](https://user-images.githubusercontent.com/31661435/32147817-91297386-bcc3-11e7-9a84-7cbfb2789079.png)
 
 ![screen shot 2017-10-29 at 4 08 54 pm](https://user-images.githubusercontent.com/31661435/32147830-b9683e4a-bcc3-11e7-9727-33305e0c80b3.png)
+
+Week 6:
+I finished my first project the Food Tracker app and now I have a much better understanding of the swift language as 
+while making this app I learned how to build a basic UI, connect the UI to code, work with view controllers, create a
+cutom controller, create a table view, and how to implement navigation within the app. Now that I know all of this I 
+wil start working on a new project in swift which is going to be a tetris game, It will use a lot of the skills I already
+learned through the creation of my other app as well as some new ones. Depending on how long the tetris game takes I might 
+make one more project but if not I will defintly have these two done.
