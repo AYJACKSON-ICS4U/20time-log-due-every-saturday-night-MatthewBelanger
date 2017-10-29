@@ -28,3 +28,5 @@ my first project which I will post when its done hopefully within the next coupl
 I will start working on a bigger final project which will be some sort of game for the Iphone.
 
 ![screen shot 2017-10-29 at 4 08 32 pm](https://user-images.githubusercontent.com/31661435/32147817-91297386-bcc3-11e7-9a84-7cbfb2789079.png)
+
+![screen shot 2017-10-29 at 4 08 54 pm](https://user-images.githubusercontent.com/31661435/32147830-b9683e4a-bcc3-11e7-9727-33305e0c80b3.png)
