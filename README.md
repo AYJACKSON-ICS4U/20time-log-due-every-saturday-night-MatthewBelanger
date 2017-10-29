@@ -26,3 +26,5 @@ Week 5:
 I didn't have that much time this week to work on my project but in what little time I did have I've almost
 my first project which I will post when its done hopefully within the next couple of days. Once I've finished that 
 I will start working on a bigger final project which will be some sort of game for the Iphone.
+
+![screen shot 2017-10-29 at 4 08 32 pm](https://user-images.githubusercontent.com/31661435/32147817-91297386-bcc3-11e7-9a84-7cbfb2789079.png)
