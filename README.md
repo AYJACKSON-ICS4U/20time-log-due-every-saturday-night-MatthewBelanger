@@ -38,3 +38,11 @@ cutom controller, create a table view, and how to implement navigation within th
 wil start working on a new project in swift which is going to be a tetris game, It will use a lot of the skills I already
 learned through the creation of my other app as well as some new ones. Depending on how long the tetris game takes I might 
 make one more project but if not I will defintly have these two done.
+
+Week 7; 
+I have been working on my tetris game in swift and so far its going well as I've completed a good portion of it
+and I think I'll have it done either by the end of next week or the start of the following week. So far I have 
+created the main base for the game, as I've created the blocks and a clock for the timing on when they fall, as 
+well as an array to store all of the blocks. For next week I will work on making the blocs fall in shapes, 
+as well as actually being able to play the game which means I'm going to have to figure out how the user will
+move the blocs when they fall.
