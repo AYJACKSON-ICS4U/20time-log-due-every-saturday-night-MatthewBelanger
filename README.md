@@ -46,3 +46,6 @@ created the main base for the game, as I've created the blocks and a clock for t
 well as an array to store all of the blocks. For next week I will work on making the blocs fall in shapes, 
 as well as actually being able to play the game which means I'm going to have to figure out how the user will
 move the blocs when they fall.
+
+Week 8:
+I didn't have a lot of time this week but during the time that I did have I was mostly trying to figure out git so I can upload my files for tetris this way as it will be much more efficent and I'll be able to see commit history. I've craeted a local repository to store my files I just to figure out how to upload it to my github repository. I'll hopefully have it ready within the next couple days and once I do I'll go back to finishing up my tetris project which I'll upload using git.
