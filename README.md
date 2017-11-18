@@ -49,3 +49,6 @@ move the blocs when they fall.
 
 Week 8:
 I didn't have a lot of time this week but during the time that I did have I was mostly trying to figure out git so I can upload my files for tetris this way as it will be much more efficent and I'll be able to see commit history. I've craeted a local repository to store my files I just to figure out how to upload it to my github repository. I'll hopefully have it ready within the next couple days and once I do I'll go back to finishing up my tetris project which I'll upload using git.
+
+Week 9:
+This week I mostly worked on using Git through the terminal on my computer which I now have fully functioning. I was able to create a local repository which I added all of my files too, then everytime I made changes locally I was able to commit them then push them up to GitHub. Now that I have Git working smoothly it will be much easier for my to commit all of my changes and I'll be able to see my entire commit history. For next week I'm going to work on finishing up my Tetris game which is coming along well. I've added a few things to the game since last time, I've made it so the blocs are randomly generated in random shapes which then fall down the screen. For the future I have to work on the blocs falling as there are a few bugs at the moment then all I have to do is add user interaction and I'm done the game.
