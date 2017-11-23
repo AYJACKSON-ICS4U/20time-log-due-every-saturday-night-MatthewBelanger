@@ -14,6 +14,7 @@
 		F3C0CFC21FC64BB20041A675 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0CFC11FC64BB20041A675 /* JShape.swift */; };
 		F3C0CFC41FC64BD70041A675 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0CFC31FC64BD70041A675 /* SShape.swift */; };
 		F3C0CFC61FC64BFD0041A675 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0CFC51FC64BFD0041A675 /* ZShape.swift */; };
+		F3C0CFC81FC6531F0041A675 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0CFC71FC6531F0041A675 /* Swiftris.swift */; };
 		F3F57BEE1FAB52950068BA53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F57BED1FAB52950068BA53 /* AppDelegate.swift */; };
 		F3F57BF21FAB52950068BA53 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F3F57BF11FAB52950068BA53 /* Actions.sks */; };
 		F3F57BF41FAB52950068BA53 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F57BF31FAB52950068BA53 /* GameScene.swift */; };
@@ -53,6 +54,7 @@
 		F3C0CFC11FC64BB20041A675 /* JShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
 		F3C0CFC31FC64BD70041A675 /* SShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
 		F3C0CFC51FC64BFD0041A675 /* ZShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		F3C0CFC71FC6531F0041A675 /* Swiftris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 		F3F57BEA1FAB52950068BA53 /* Matt's Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matt's Tetris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F57BED1FAB52950068BA53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3F57BF11FAB52950068BA53 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				F3F57BF11FAB52950068BA53 /* Actions.sks */,
 				F3F57BF31FAB52950068BA53 /* GameScene.swift */,
 				F3F57C251FBF3B3B0068BA53 /* Shape.swift */,
+				F3C0CFC71FC6531F0041A675 /* Swiftris.swift */,
 				F3C0CFB91FC51C820041A675 /* SquareShape.swift */,
 				F3C0CFBB1FC64B0D0041A675 /* TShape.swift */,
 				F3C0CFBD1FC64B530041A675 /* Line Shape.swift */,
@@ -300,6 +303,7 @@
 				F3C0CFBA1FC51C820041A675 /* SquareShape.swift in Sources */,
 				F3C0CFBE1FC64B530041A675 /* Line Shape.swift in Sources */,
 				F3C0CFC21FC64BB20041A675 /* JShape.swift in Sources */,
+				F3C0CFC81FC6531F0041A675 /* Swiftris.swift in Sources */,
 				F3F57BF41FAB52950068BA53 /* GameScene.swift in Sources */,
 				F3F57C261FBF3B3B0068BA53 /* Shape.swift in Sources */,
 				F3F57C221FAB5C030068BA53 /* Array2D.swift in Sources */,
