@@ -30,7 +30,7 @@ enum Orientation: Int, CustomStringConvertible {
         return Orientation(rawValue:Int(arc4random_uniform(NumOrientations)))!
     }
     
-    // #1
+    
     static func rotate(orientation:Orientation, clockwise: Bool) -> Orientation {
         var rotated = orientation.rawValue + (clockwise ? 1 : -1)
         if rotated > Orientation.TwoSeventy.rawValue {
@@ -63,17 +63,17 @@ class Shape: Hashable, CustomStringConvertible {
     var column, row:Int
     
     // Required Overrides
-    // #2
+    
     // Subclasses must override this property
     var blockRowColumnPositions: [Orientation: Array<(columnDiff: Int, rowDiff: Int)>] {
         return [:]
     }
-    // #3
+    
     // Subclasses must override this property
     var bottomBlocksForOrientations: [Orientation: Array<Block>] {
         return [:]
     }
-    // #4
+    
     var bottomBlocks:Array<Block> {
         guard let bottomBlocks = bottomBlocksForOrientations[orientation] else {
             return []
@@ -83,7 +83,7 @@ class Shape: Hashable, CustomStringConvertible {
     
     // Hashable
     var hashValue:Int {
-        // #5
+        
         return blocks.reduce(0) { $0.hashValue ^ $1.hashValue }
     }
     
@@ -100,7 +100,7 @@ class Shape: Hashable, CustomStringConvertible {
         initializeBlocks()
     }
     
-    // #6
+    
     convenience init(column:Int, row:Int) {
         self.init(column:column, row:row, color:BlockColor.random(), orientation:Orientation.random())
     }
@@ -109,7 +109,7 @@ class Shape: Hashable, CustomStringConvertible {
         guard let blockRowColumnTranslations = blockRowColumnPositions[orientation] else {
             return
         }
-        // #8
+       
         blocks = blockRowColumnTranslations.map { (diff) -> Block in
             return Block(column: column + diff.columnDiff, row: row + diff.rowDiff, color: color)
         }
