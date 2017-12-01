@@ -97,7 +97,6 @@ func detectIllegalPlacement() -> Bool {
         delegate?.gameShapeDidLand(swiftris: self)
     }
     
-    // #9
     func detectTouch() -> Bool {
         guard let shape = fallingShape else {
             return false

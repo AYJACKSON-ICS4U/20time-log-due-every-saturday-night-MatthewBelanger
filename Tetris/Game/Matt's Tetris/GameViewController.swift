@@ -10,10 +10,11 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class GameViewController: UIViewController, SwiftrisDelegate {
+class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognizerDelegate {
 
     var scene: GameScene!
     var swiftris:Swiftris!
+    var panPointReference:CGPoint?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +42,49 @@ class GameViewController: UIViewController, SwiftrisDelegate {
         return true
     }
     
+    @IBAction func didTap(_ sender: UITapGestureRecognizer) {
+             swiftris.rotateShape()
+    }
+    
+    @IBAction func didSwipe(_ sender: UISwipeGestureRecognizer) {
+        swiftris.dropShape()
+    }
+    
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        return true
+    }
+    
+    internal func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        if gestureRecognizer is UISwipeGestureRecognizer {
+            if otherGestureRecognizer is UIPanGestureRecognizer {
+                return true
+            }
+        } else if gestureRecognizer is UIPanGestureRecognizer {
+            if otherGestureRecognizer is UITapGestureRecognizer {
+                return true
+            }
+        }
+        return false
+    }
+    
+    @IBAction func didPan(_ sender: UIPanGestureRecognizer) {
+        
+        let currentPoint = sender.translation(in: self.view)
+        if let originalPoint = panPointReference {
+            if abs(currentPoint.x - originalPoint.x) > (BlockSize * 0.9) {
+                if sender.velocity(in: self.view).x > CGFloat(0) {
+                    swiftris.moveShapeRight()
+                    panPointReference = currentPoint
+                } else {
+                    swiftris.moveShapeLeft()
+                    panPointReference = currentPoint
+                }
+            }
+        } else if sender.state == .began {
+            panPointReference = currentPoint
+        }
+    }
+    
     func didTick() {
 swiftris.letShapeFall()
     }
@@ -51,7 +95,6 @@ swiftris.letShapeFall()
         }
         self.scene.addPreviewShapeToScene(shape: newShapes.nextShape!) {}
         self.scene.movePreviewShape(shape: fallingShape) {
-            // #16
             self.view.isUserInteractionEnabled = true
             self.scene.startTicking()
         }
@@ -78,7 +121,10 @@ swiftris.letShapeFall()
     }
     
     func gameShapeDidDrop(swiftris: Swiftris) {
-        
+        scene.stopTicking()
+        scene.redrawShape(shape: swiftris.fallingShape!) {
+            swiftris.letShapeFall()
+        }
     }
     
     func gameShapeDidLand(swiftris: Swiftris) {
@@ -86,7 +132,6 @@ swiftris.letShapeFall()
         nextShape()
     }
     
-    // #17
     func gameShapeDidMove(swiftris: Swiftris) {
         scene.redrawShape(shape: swiftris.fallingShape!) {}
     }
