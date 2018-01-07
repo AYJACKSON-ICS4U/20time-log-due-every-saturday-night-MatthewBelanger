@@ -58,3 +58,8 @@ I continued to work on my tetris throughout this week and I'm getting close to f
 
 Week 11/12:
 The past couple of weeks I've just been working on finishing up my tetris game and I'm really close. It's almost all done I just have to add a couple of finishing touches and fix a couple problems. Other than that I should have the game done by this weekend and will write a better description of what I did next week.
+
+![screen shot 2018-01-07 at 1 45 48 pm](https://user-images.githubusercontent.com/31661435/34653399-41fb0af4-f3b9-11e7-924c-bb12903cde13.png)
+
+Final:
+I finished my second project, the tetris game, it's still not perfect as there are still some errors but the overall game works. There are still problems with the movement of the blocks, speed of the game, and the consistency of the blocks but despite these problems and the fact that the game doesn't look very nice yet, it still works fine.
